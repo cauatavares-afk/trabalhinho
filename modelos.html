@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Modelos de Tênis</title>
+
+    
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            margin: 20px;
+        }
+
+        .modelo {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .modelo img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .modelo h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .modelo p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .back-link {
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    left: 10px; /* Ajuste conforme necessário */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.back-link img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">
+        <img src="iconhome.png" alt="Back to Index">
+    </a>
+
+<div class="grid-container">
+    <div class="modelo">
+        <img src="nike1.png" alt="Modelo 1">
+        <h3>Nike Tn</h3>
+        <p>Tênis bonito e confortavel para seu dia a dia</p>
+        <p><strong>R$129,99</strong></p>
+        <button>Comprar</button>
+    </div>
+
+    <div class="modelo">
+        <img src="nike2.png" alt="Modelo 2">
+        <h3>Air Max Pulse</h3>
+        <p>Tênis bonito e discreto.</p>
+        <p><strong>R$200,00</strong></p>
+        <button>Comprar</button>
+    </div>
+
+    <div class="modelo">
+        <img src="nike3.png" alt="Modelo 3">
+        <h3>Nike Tn</h3>
+        <p>Cores alegres e um estilo diferenciado.</p>
+        <p><strong>R$149,99</strong></p>
+        <button>Comprar</button>
+    </div>
+
+</div>
+
+</body>
+</html>
